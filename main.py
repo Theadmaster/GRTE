@@ -7,7 +7,7 @@ import random
 import os
 import torch.nn as nn
 import torch
-from transformers.modeling_bert import BertConfig
+from transformers.models.bert.modeling_bert import BertConfig
 import json
 
 def search(pattern, sequence):
